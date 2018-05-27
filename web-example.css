@@ -1,0 +1,126 @@
+* {
+	-webkit-box-sizing: content-box;
+	   -moz-box-sizing: content-box;
+	        box-sizing: content-box;
+	transition: 0.3s;
+}
+
+*:focus {
+	outline: none;
+}
+
+.tavern-chat {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	border: 1px solid black;
+}
+
+.delete-message {
+	width: 36px;
+	margin-left: calc(100%-64px);
+}
+
+.tavern-chat__content {
+	display: block;
+	background: #FFF;
+	padding: 0;
+	margin: 0;
+	min-height: 400px;
+	max-height: 600px;
+	-ms-overflow-y: auto;
+	    overflow-y: auto;
+	padding-left: 30px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.tavern-chat__control-panel {
+	border-top: 1px solid black;
+}
+
+.tavern-chat__control-panel-content-wrapper {
+	margin: 0 auto;
+	width: 200px;
+}
+
+.tavern-chat__message {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 1px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgray;
+}
+
+.tavern-chat__message:last-child {
+	border: none;
+}
+
+.tavern-chat__message * {
+	font-size: 12px;
+	-ms-word-wrap: break-word;
+	    word-wrap: break-word;
+}
+
+.tavern-chat__message-sender-name {
+	font-weight: bold;
+}
+
+.tavern-chat__message-send-time {
+	margin-top: 8px;
+}
+
+.tavern-chat__button {
+	width: 100%;
+	border: none;
+	height: 20px;
+	padding: 1;
+	margin: 0 auto;
+	background: #DEDEDE;
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+	margin-top: 1px;
+}
+
+.tavern-chat__button:hover {
+	background: #CECECE;
+	cursor: pointer;
+}
+
+.tavern-chat__message-input {
+	border: none;
+	width: 100%;
+	resize: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.tavern-chat_button-load-old-content {
+	width: 100%;
+	height: 24px;
+	margin-bottom: 6px;
+	background: #EEE;
+	border: 1px solid lightgray;
+	padding: 0;
+}
+
+.tavern-chat_button-load-old-content:hover {
+	background: #DDD;
+}
+
+.name-request {
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 400px;
+	border: 1px solid black;
+}
+
+.name-request * {
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
